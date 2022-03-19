@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+    <Button
+        android:id="@+id/item_One"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:onClick="addItems"
+        android:text="Paneer"
+        app:layout_constraintEnd_toEndOf="@+id/item_Two"
+        app:layout_constraintStart_toStartOf="@+id/item_Two"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/item_Two"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:onClick="addItems"
+        android:text="Apple"
+        app:layout_constraintEnd_toEndOf="@+id/item_Three"
+        app:layout_constraintStart_toStartOf="@+id/item_Three"
+        app:layout_constraintTop_toBottomOf="@+id/item_One" />
+
+    <Button
+        android:id="@+id/item_Three"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:onClick="addItems"
+        android:text="Cucumber"
+        app:layout_constraintEnd_toEndOf="@+id/item_Four"
+        app:layout_constraintStart_toStartOf="@+id/item_Four"
+        app:layout_constraintTop_toBottomOf="@+id/item_Two" />
+
+    <Button
+        android:id="@+id/item_Four"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:onClick="addItems"
+        android:text="Orange"
+        app:layout_constraintEnd_toEndOf="@+id/item_Five"
+        app:layout_constraintStart_toStartOf="@+id/item_Five"
+        app:layout_constraintTop_toBottomOf="@+id/item_Three" />
+
+    <Button
+        android:id="@+id/item_Five"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:onClick="addItems"
+        android:text="Banana"
+        app:layout_constraintEnd_toEndOf="@+id/item_Six"
+        app:layout_constraintStart_toStartOf="@+id/item_Six"
+        app:layout_constraintTop_toBottomOf="@+id/item_Four" />
+
+    <Button
+        android:id="@+id/item_Six"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:onClick="addItems"
+        android:text="Egg"
+        app:layout_constraintEnd_toEndOf="@+id/item_Seven"
+        app:layout_constraintStart_toStartOf="@+id/item_Seven"
+        app:layout_constraintTop_toBottomOf="@+id/item_Five" />
+
+    <Button
+        android:id="@+id/item_Seven"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:onClick="addItems"
+        android:text="Apple Juice"
+        app:layout_constraintEnd_toEndOf="@+id/item_Eight"
+        app:layout_constraintStart_toStartOf="@+id/item_Eight"
+        app:layout_constraintTop_toBottomOf="@+id/item_Six" />
+
+    <Button
+        android:id="@+id/item_Eight"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:onClick="addItems"
+        android:text="Dish Washer Gel"
+        app:layout_constraintEnd_toEndOf="@+id/item_Nine"
+        app:layout_constraintStart_toStartOf="@+id/item_Nine"
+        app:layout_constraintTop_toBottomOf="@+id/item_Seven" />
+
+    <Button
+        android:id="@+id/item_Nine"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:onClick="addItems"
+        android:text="Sunflower Oil"
+        app:layout_constraintEnd_toEndOf="@+id/item_Ten"
+        app:layout_constraintStart_toStartOf="@+id/item_Ten"
+        app:layout_constraintTop_toBottomOf="@+id/item_Eight" />
+
+    <Button
+        android:id="@+id/item_Ten"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:onClick="addItems"
+        android:text="Wheat"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/item_Nine"
+        app:layout_constraintVertical_bias="0.018" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
